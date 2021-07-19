@@ -1,9 +1,9 @@
-# Hello-World
+# Basic Syntax 
 Let us start learning how to use Markdown.
 
 Here we will learn the basic syntax at first.
 ## Header
-* Use the character '#' to build a header.
+
 * You can use one `#` all the way up to `######` six for different heading sizes.
 
 e.g.
@@ -12,24 +12,35 @@ e.g.
 
 #### THis is a header tag
 ## Emphasis
-* There are two ways to emphasize words:bold and italic.
+* There are 3 ways to emphasize words: bold, italic, all bold and italic.
   * italic: Wrap the sentence with a pair of * * or _ _
-  * bold:Wrap the sentence with a pair of ** ** 
+  * bold: Wrap the sentence with a pair of ** ** or __ __
+  * all bold and italic: Wrap the sentence with a pair of *** ***
 ```
 *italic* or _italic_
 ```
 
 *italic* or _italic_
 
-`**the text will be bold**`
+```
+**the text will be bold**
+```
 
 **the text will be bold**
+
+```
+***The sentence is all bold and italic***
+```
+
+***The sentence is all bold and italic***
 
 You can also use them in combination.
 
 e.g.
 
-`_A italic sentence with **bold word**_`
+```
+_A italic sentence with **bold word**_
+```
 
 _A italic sentence with **bold word**_
 ## Lists
@@ -159,15 +170,36 @@ Use `\` to transfer the specific charcter into ordinary character.
 
 The specific character includes  (\  \`  *  _  {}  []  ()  #  +  -  .  !)
 
-## Extended Syntax
+# Extended Syntax(Github Flavored Markdown)
 
-1. strikethrough
+>GitHub.com uses its own version of the Markdown syntax that provides an additional set of >useful features, many of which make it easier to work with content on GitHub.com.
 
+>To learn more at [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)
+
+## Task Lists
+
+With a `-` and a regular space character followed by `[]` to create a task list item.
+Use`[x]`to  a build a complete list item. 
+```
+ [ ] Eat
+- [x] Code
+  - [x] JAVA
+  - [x] MYSQL
+  - [x] JDBC
+- [x] entertainment 
+- [ ] Sleep
+```
 - [ ] Eat
 - [x] Code
-  - [x] HTML
-  - [x] CSS
-  - [x] JavaScript
+  - [x] JAVA
+  - [x] MYSQL
+  - [x] JDBC
+- [x] entertainment 
 - [ ] Sleep
 
+## strikethrough
+
 - --- ----- ------ --
+
+
+
