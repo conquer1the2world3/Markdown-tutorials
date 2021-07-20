@@ -197,9 +197,76 @@ Use`[x]`to  a build a complete list item.
 - [x] entertainment 
 - [ ] Sleep
 
-## strikethrough
+## Tables
 
-- --- ----- ------ --
+Use `-` to sepreating the firt row(header) and others, and then dividing each column with  `|`
+```
+|    sno    | sname  |
+| --------- | -----  |
+| 200215101 | Peter  | 
+| 200215102 | Alice  | 
+| 200215103 | kate   | 
+| 200215104 | Bob    | 
+| 200215105 | Arthur | 
+| 200215106 | Adora  | 
+| 200215107 | Caitlin|
+```
+
+|    sno    | sname  |
+| --------- | -----  |
+| 200215101 | Peter  | 
+| 200215102 | Alice  | 
+| 200215103 | kate   | 
+| 200215104 | Bob    | 
+| 200215105 | Arthur | 
+| 200215106 | Adora  | 
+| 200215107 | Caitlin|
+
+You can also alight text to different postion, to the left, right or center of a column by including `:`
+
+```
+| bidentifier | ridentifier | lenddate            |
+| :---------: | :---------- | ------------------: |
+| 1           | 102         | 2020-05-17 00:00:00 |
+| 11          | 103         | 2020-05-29 00:00:00 |
+| 12          | 104         | 2020-05-21 00:00:00 |
+| 13          | 105         | 2020-05-19 00:00:00 |
+| 2           | 103         | 2020-05-18 00:00:00 |
+| 3           | 105         | 2020-06-26 00:00:00 |
+| 5           | 102         | 2020-05-23 00:00:00 |
+| 6           | 103         | 2020-05-24 00:00:00 |
+| 7           | 104         | 2020-08-27 00:00:00 |
+```
+| bidentifier | ridentifier | lenddate            |
+| :---------: | :---------- | ------------------: |
+| 1           | 102         | 2020-05-17 00:00:00 |
+| 11          | 103         | 2020-05-29 00:00:00 |
+| 12          | 104         | 2020-05-21 00:00:00 |
+| 13          | 105         | 2020-05-19 00:00:00 |
+| 2           | 103         | 2020-05-18 00:00:00 |
+| 3           | 105         | 2020-06-26 00:00:00 |
+| 5           | 102         | 2020-05-23 00:00:00 |
+| 6           | 103         | 2020-05-24 00:00:00 |
+| 7           | 104         | 2020-08-27 00:00:00 |
+
+## strikethrougn
+
+Wrap any words with `~~text~~`
+
+`~~Strikethrough~~`
+
+~~Strikethrough~~
+
+## Emoji
+
+You can send emoji by typing `:EmojiCode`
+
+`:apple:`
+:apple:
+
+For full and available emoji, look at this [emoji-cheat-sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
+
+
 
 
 
